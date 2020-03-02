@@ -40,13 +40,15 @@ https://github.com/bitly/go-simplejson
 1.命令进入项目文件夹目录下
 2.set GOOS=  //设置环境                 （darwin/linux/windows）
   set GOARCH= //设置cpu                 (一般 amd64)
-3.go build  会生成 项目名 的一个文件      (go项目一般执行)
-3.bee pack  会生成一个 项目名.tar.gz 文件 (beego项目执行),
-  打包完成，该文件独立于gopath环境变量，可以放到任意服务器启动项目
-4.启动打包文件
+3).go build  会生成 项目名 的一个文件      (go项目一般执行)
+3).bee pack  会生成一个 项目名.tar.gz 文件 (beego项目执行),
+  打包完成，该文件独立于gopath环境变量，可以放到任意服务器目录下启动项目
+4.启动打包文件（linux下）
   nohup ./项目名 &
-5.查看是否开启：
+  nohup ./beego_project &
+5.查看是否开启项目：
   tail nohup.out
+
 
 ```
 

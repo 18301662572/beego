@@ -990,3 +990,4 @@
 2020/02/29 18:23:52.059 [C] [panic.go:522]  C:/Go/src/runtime/asm_amd64.s:1337
 2020/02/29 18:23:52.060 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
 2020/02/29 18:23:53.340 [I] [BaseController.go:19]  MenuController Add 
+2020/03/02 15:04:49.369 [I] [asm_amd64.s:1337]  http server Running on http://:8080
